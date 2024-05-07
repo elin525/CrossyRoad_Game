@@ -1253,3 +1253,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.07-05.27.15:015][882]LogViewport: Scene viewport resized to 1085x543, mode Windowed.
 [2024.05.07-05.27.15:049][884]LogViewport: Scene viewport resized to 1085x546, mode Windowed.
 [2024.05.07-05.27.15:081][886]LogViewport: Scene viewport resized to 1085x547, mode Windowed.
+[2024.05.07-05.35.51:031][845]LogDirectoryWatcher: Display: Refresh of ReadDirectoryChangesW failed. GetLastError code [5] Handle [0000000000001380], Path [C:/Users/mdrad/OneDrive/Documents/Unreal Projects/Crossy_Git/CrossyRoad/Saved/Collections/]. Aborting watch request...
