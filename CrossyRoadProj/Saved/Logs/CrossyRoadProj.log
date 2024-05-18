@@ -1426,3 +1426,880 @@ Script call stack:
 [2024.05.18-00.28.35:539][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 591 ms)
 [2024.05.18-00.28.35:541][266]AssetCheck: New page: Asset Save: RockSpawner
 [2024.05.18-00.28.35:541][266]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/RockSpawner.RockSpawner
+[2024.05.18-00.31.26:110][543]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car.fbx_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-00.31.26:110][543]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car.fbx_Collection/police_car.fbx_Collection.fbx)
+[2024.05.18-00.31.26:114][543]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car.fbx_Collection/police_car.fbx_Collection.fbx
+[2024.05.18-00.31.26:117][543]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-00.31.30:384][543]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-00.31.30:532][543]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-00.31.30:537][543]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-00.31.30:544][543]LogStaticMesh: Display: Building static mesh police_car_fbx_Collection...
+[2024.05.18-00.31.30:662][543]LogStaticMesh: Adjacency [0.00s], tris: 420, UVs 2
+[2024.05.18-00.31.30:663][543]LogStaticMesh: Clustering [0.00s]. Ratio: 1.500000
+[2024.05.18-00.31.30:663][543]LogStaticMesh: Leaves [0.00s]
+[2024.05.18-00.31.30:675][543]LogStaticMesh: Reduce [0.01s]
+[2024.05.18-00.31.30:681][543]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2024.05.18-00.31.30:682][543]LogStaticMesh: ConstrainClusters:
+[2024.05.18-00.31.30:682][543]LogStaticMesh:   Input: 9 Clusters, 798 Triangles and 1230 Vertices
+[2024.05.18-00.31.30:682][543]LogStaticMesh:   Output without splits: 9 Clusters, 798 Triangles and 1230 Vertices
+[2024.05.18-00.31.30:682][543]LogStaticMesh:   Output with splits: 9 Clusters, 798 Triangles and 1230 Vertices
+[2024.05.18-00.31.30:682][543]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 9, Slow Path Clusters: 0, 1 Material: 6, 2 Materials: 3, 3 Materials: 0, At Least 4 Materials: 0
+[2024.05.18-00.31.30:682][543]LogStaticMesh: WritePages:
+[2024.05.18-00.31.30:682][543]LogStaticMesh:   Root: GPU size: 20148 bytes. 1 Pages. 20148.000 bytes per page (61.487% utilization).
+[2024.05.18-00.31.30:682][543]LogStaticMesh:   Streaming: 0 bytes.
+[2024.05.18-00.31.30:682][543]LogStaticMesh:   Page data disk size: 15188 bytes. Fixup data size: 56 bytes.
+[2024.05.18-00.31.30:682][543]LogStaticMesh:   Total GPU size: 20148 bytes, Total disk size: 15244 bytes.
+[2024.05.18-00.31.30:682][543]LogStaticMesh: Encode [0.00s]
+[2024.05.18-00.31.30:682][543]LogStaticMesh: Nanite build [0.02s]
+
+[2024.05.18-00.31.30:684][543]LogStaticMesh: Built static mesh [0.14s] /Game/CrossyRoadAssets/police_car/police_car_fbx_Collection.police_car_fbx_Collection
+[2024.05.18-00.31.30:691][543]LogStaticMesh: Warning: police_car_fbx_Collection has degenerate tangent bases which will result in incorrect shading.  
+[2024.05.18-00.31.30:692][543]LogStaticMesh: Warning: police_car_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.05.18-00.31.30:704][543]FBXImport: Warning: police_car_fbx_Collection has degenerate tangent bases which will result in incorrect shading.   
+[2024.05.18-00.31.30:704][543]FBXImport: Warning: police_car_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.05.18-00.31.31:111][544]LogAutomationController: Ignoring very large delta of 5.02 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.31.31:113][544]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car/Material.Material needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Total job queries 208, among them cache hits 130 (62.50%)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 22 distinct outputs (84.62%)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: RAM used: 731.41 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Job execution time: average 1.66 s, max 2.08 s
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Job life time (pending + execution): average 1.68 s, max 2.10
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Shader code size: average 47.172 KiB, min 29.711 KiB, max 70.668 KiB
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.10 s
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 3.71 jobs/batch
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Average processing rate: 12.37 jobs/sec
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Total thread time: 9.59 s
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Total thread preprocess time: 0.482 s
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Percentage time preprocessing: 5.03%
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Effective parallelization: 4.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 10.89% of total time (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.61% of total time (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.31.31:171][544]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.38% of total time (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.31.31:172][544]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.04% of total time (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.31.31:172][544]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.78% of total time (compiled    2 times, average 0.47 sec, max 0.73 sec, min 0.21 sec)
+[2024.05.18-00.31.31:172][544]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.31.46:225][434]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.31.46:229][434]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.32.01:472][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.05.18-00.32.04:040][319]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.18-00.32.04:060][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.05.18-00.32.04:073][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.05.18-00.32.04:085][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.05.18-00.32.04:214][319]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.05.18-00.32.04:312][320]LogAutomationController: Ignoring very large delta of 2.87 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.32.04:512][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.32.04:726][325]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.32.04:930][333]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.32.04:954][334]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.35.05:651][407]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car_attempt2.fbx_Scene_Scene_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-00.35.05:651][407]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car_attempt2.fbx_Scene_Scene_Collection/police_car_attempt2.fbx_Scene_Scene_Collection.fbx)
+[2024.05.18-00.35.05:654][407]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car_attempt2.fbx_Scene_Scene_Collection/police_car_attempt2.fbx_Scene_Scene_Collection.fbx
+[2024.05.18-00.35.05:659][407]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-00.35.40:544][407]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-00.35.40:712][407]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.05.18-00.35.40:719][407]LogFbx: Display: Triangulating static mesh Cube.016
+[2024.05.18-00.35.40:727][407]LogFbx: Display: Triangulating static mesh Cube.015
+[2024.05.18-00.35.40:728][407]LogFbx: Display: Triangulating static mesh Cube.014
+[2024.05.18-00.35.40:730][407]LogFbx: Display: Triangulating static mesh Cube.011
+[2024.05.18-00.35.40:731][407]LogFbx: Display: Triangulating static mesh Cube.010
+[2024.05.18-00.35.40:732][407]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.05.18-00.35.40:732][407]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.05.18-00.35.40:733][407]LogFbx: Display: Triangulating static mesh Cube.007
+[2024.05.18-00.35.40:734][407]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.05.18-00.35.40:734][407]LogFbx: Display: Triangulating static mesh Cube.005
+[2024.05.18-00.35.40:736][407]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.05.18-00.35.40:737][407]LogFbx: Display: Triangulating static mesh Cube.003
+[2024.05.18-00.35.40:738][407]LogFbx: Display: Triangulating static mesh Cube.002
+[2024.05.18-00.35.40:738][407]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-00.35.40:741][407]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-00.35.40:750][407]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Scene_Scene_Collection...
+[2024.05.18-00.35.40:891][407]LogStaticMesh: Adjacency [0.00s], tris: 588, UVs 2
+[2024.05.18-00.35.40:893][407]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.05.18-00.35.40:893][407]LogStaticMesh: Leaves [0.00s]
+[2024.05.18-00.35.40:908][407]LogStaticMesh: Reduce [0.02s]
+[2024.05.18-00.35.40:917][407]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 392
+[2024.05.18-00.35.40:918][407]LogStaticMesh: ConstrainClusters:
+[2024.05.18-00.35.40:918][407]LogStaticMesh:   Input: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-00.35.40:918][407]LogStaticMesh:   Output without splits: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-00.35.40:918][407]LogStaticMesh:   Output with splits: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-00.35.40:918][407]LogStaticMesh: Material Stats - Unique Materials: 13, Fast Path Clusters: 5, Slow Path Clusters: 6, 1 Material: 4, 2 Materials: 0, 3 Materials: 1, At Least 4 Materials: 6
+[2024.05.18-00.35.40:918][407]LogStaticMesh: WritePages:
+[2024.05.18-00.35.40:918][407]LogStaticMesh:   Root: GPU size: 31948 bytes. 1 Pages. 31948.000 bytes per page (97.498% utilization).
+[2024.05.18-00.35.40:918][407]LogStaticMesh:   Streaming: GPU size: 2640 bytes. 1 Pages (1 with relative encoding). 2640.000 bytes per page (2.014% utilization).
+[2024.05.18-00.35.40:918][407]LogStaticMesh:   Page data disk size: 21956 bytes. Fixup data size: 176 bytes.
+[2024.05.18-00.35.40:918][407]LogStaticMesh:   Total GPU size: 34588 bytes, Total disk size: 22132 bytes.
+[2024.05.18-00.35.40:918][407]LogStaticMesh: Encode [0.00s]
+[2024.05.18-00.35.40:918][407]LogStaticMesh: Nanite build [0.03s]
+
+[2024.05.18-00.35.40:921][407]LogStaticMesh: Built static mesh [0.17s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Scene_Scene_Collection.police_car_attempt2_fbx_Scene_Scene_Collection
+[2024.05.18-00.35.40:926][407]LogStaticMesh: Warning: police_car_attempt2_fbx_Scene_Scene_Collection has degenerate tangent bases which will result in incorrect shading.  
+[2024.05.18-00.35.40:926][407]LogStaticMesh: Warning: police_car_attempt2_fbx_Scene_Scene_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.05.18-00.35.40:935][407]FBXImport: Warning: police_car_attempt2_fbx_Scene_Scene_Collection has degenerate tangent bases which will result in incorrect shading.   
+[2024.05.18-00.35.40:935][407]FBXImport: Warning: police_car_attempt2_fbx_Scene_Scene_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.05.18-00.35.41:079][408]LogAutomationController: Ignoring very large delta of 35.44 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.35.41:080][408]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_018.Material_018 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.35.41:116][408]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_010.Material_010 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.35.41:128][408]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_016.Material_016 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Total job queries 286, among them cache hits 208 (72.73%)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 22 distinct outputs (84.62%)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: RAM used: 731.41 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Job execution time: average 1.66 s, max 2.08 s
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Job life time (pending + execution): average 1.68 s, max 2.10
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Shader code size: average 47.172 KiB, min 29.711 KiB, max 70.668 KiB
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.10 s
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 3.71 jobs/batch
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Average processing rate: 12.37 jobs/sec
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Total thread time: 9.59 s
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Total thread preprocess time: 0.482 s
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Percentage time preprocessing: 5.03%
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Effective parallelization: 4.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 10.89% of total time (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.61% of total time (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.38% of total time (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.04% of total time (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.78% of total time (compiled    2 times, average 0.47 sec, max 0.73 sec, min 0.21 sec)
+[2024.05.18-00.35.41:150][408]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.35.52:389][ 57]LogViewport: Scene viewport resized to 1301x452, mode Windowed.
+[2024.05.18-00.37.00:608][430]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.37.00:614][430]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.37.09:340][950]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Scene_Scene_Collection.police_car_attempt2_fbx_Scene_Scene_Collection
+[2024.05.18-00.37.09:433][950]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.37.09:434][950]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-00.37.09:902][950]LogViewport: Scene viewport resized to 1403x848, mode Windowed.
+[2024.05.18-00.38.04:115][123]LogSlate: Window 'police_car_attempt2_fbx_Scene_Scene_Collection' being destroyed
+[2024.05.18-00.38.04:119][123]LogSlate: Window 'police_car_attempt2_fbx_Scene_Scene_Collection' being destroyed
+[2024.05.18-00.38.04:150][123]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-00.38.04:150][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-00.38.11:247][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.05.18-00.38.12:946][533]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.18-00.38.12:967][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.05.18-00.38.12:980][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.05.18-00.38.12:993][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.05.18-00.40.18:525][399]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car_attempt2.fbx_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-00.40.18:525][399]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx)
+[2024.05.18-00.40.18:528][399]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx
+[2024.05.18-00.40.18:533][399]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-00.41.24:466][399]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-00.41.24:613][399]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.05.18-00.41.24:620][399]LogFbx: Display: Triangulating static mesh Cube.016
+[2024.05.18-00.41.24:629][399]LogFbx: Display: Triangulating static mesh Cube.015
+[2024.05.18-00.41.24:631][399]LogFbx: Display: Triangulating static mesh Cube.014
+[2024.05.18-00.41.24:632][399]LogFbx: Display: Triangulating static mesh Cube.011
+[2024.05.18-00.41.24:633][399]LogFbx: Display: Triangulating static mesh Cube.010
+[2024.05.18-00.41.24:634][399]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.05.18-00.41.24:635][399]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.05.18-00.41.24:636][399]LogFbx: Display: Triangulating static mesh Cube.007
+[2024.05.18-00.41.24:636][399]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.05.18-00.41.24:637][399]LogFbx: Display: Triangulating static mesh Cube.005
+[2024.05.18-00.41.24:638][399]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.05.18-00.41.24:639][399]LogFbx: Display: Triangulating static mesh Cube.003
+[2024.05.18-00.41.24:640][399]LogFbx: Display: Triangulating static mesh Cube.002
+[2024.05.18-00.41.24:641][399]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-00.41.24:643][399]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-00.41.24:653][399]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-00.41.24:784][399]LogStaticMesh: Adjacency [0.00s], tris: 588, UVs 1
+[2024.05.18-00.41.24:785][399]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.05.18-00.41.24:785][399]LogStaticMesh: Leaves [0.00s]
+[2024.05.18-00.41.24:800][399]LogStaticMesh: Reduce [0.02s]
+[2024.05.18-00.41.24:809][399]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 394
+[2024.05.18-00.41.24:809][399]LogStaticMesh: ConstrainClusters:
+[2024.05.18-00.41.24:809][399]LogStaticMesh:   Input: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-00.41.24:809][399]LogStaticMesh:   Output without splits: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-00.41.24:809][399]LogStaticMesh:   Output with splits: 12 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-00.41.24:809][399]LogStaticMesh: Material Stats - Unique Materials: 13, Fast Path Clusters: 4, Slow Path Clusters: 8, 1 Material: 4, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 8
+[2024.05.18-00.41.24:810][399]LogStaticMesh: WritePages:
+[2024.05.18-00.41.24:810][399]LogStaticMesh:   Root: GPU size: 26364 bytes. 1 Pages. 26364.000 bytes per page (80.457% utilization).
+[2024.05.18-00.41.24:810][399]LogStaticMesh:   Streaming: 0 bytes.
+[2024.05.18-00.41.24:810][399]LogStaticMesh:   Page data disk size: 18120 bytes. Fixup data size: 72 bytes.
+[2024.05.18-00.41.24:810][399]LogStaticMesh:   Total GPU size: 26364 bytes, Total disk size: 18192 bytes.
+[2024.05.18-00.41.24:810][399]LogStaticMesh: Encode [0.00s]
+[2024.05.18-00.41.24:810][399]LogStaticMesh: Nanite build [0.02s]
+
+[2024.05.18-00.41.24:812][399]LogStaticMesh: Built static mesh [0.16s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.41.24:818][399]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has degenerate tangent bases which will result in incorrect shading.  
+[2024.05.18-00.41.24:818][399]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.05.18-00.41.24:829][399]FBXImport: Warning: police_car_attempt2_fbx_Collection has degenerate tangent bases which will result in incorrect shading.   
+[2024.05.18-00.41.24:829][399]FBXImport: Warning: police_car_attempt2_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.05.18-00.41.24:970][400]LogAutomationController: Ignoring very large delta of 66.46 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.41.24:972][400]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_018.Material_018 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.41.25:005][400]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_010.Material_010 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.41.25:017][400]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_016.Material_016 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Total job queries 364, among them cache hits 286 (78.57%)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 22 distinct outputs (84.62%)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: RAM used: 731.41 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Job execution time: average 1.66 s, max 2.08 s
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Job life time (pending + execution): average 1.68 s, max 2.10
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Shader code size: average 47.172 KiB, min 29.711 KiB, max 70.668 KiB
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.10 s
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 3.71 jobs/batch
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Average processing rate: 12.37 jobs/sec
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Total thread time: 9.59 s
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Total thread preprocess time: 0.482 s
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Percentage time preprocessing: 5.03%
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Effective parallelization: 4.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 10.89% of total time (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.61% of total time (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.38% of total time (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.04% of total time (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.78% of total time (compiled    2 times, average 0.47 sec, max 0.73 sec, min 0.21 sec)
+[2024.05.18-00.41.25:038][400]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.41.33:411][892]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.41.33:416][892]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.41.44:295][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.05.18-00.41.46:388][528]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.18-00.41.46:408][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.05.18-00.41.46:419][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.05.18-00.41.46:433][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.05.18-00.41.46:462][529]LogAutomationController: Ignoring very large delta of 2.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.42.09:099][128]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car_attempt2.fbx_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-00.42.09:099][128]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx)
+[2024.05.18-00.42.09:103][128]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx
+[2024.05.18-00.42.09:107][128]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-00.42.20:170][128]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-00.42.20:326][128]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.05.18-00.42.20:333][128]LogFbx: Display: Triangulating static mesh Cube.016
+[2024.05.18-00.42.20:341][128]LogFbx: Display: Triangulating static mesh Cube.015
+[2024.05.18-00.42.20:344][128]LogFbx: Display: Triangulating static mesh Cube.014
+[2024.05.18-00.42.20:345][128]LogFbx: Display: Triangulating static mesh Cube.011
+[2024.05.18-00.42.20:346][128]LogFbx: Display: Triangulating static mesh Cube.010
+[2024.05.18-00.42.20:347][128]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.05.18-00.42.20:348][128]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.05.18-00.42.20:349][128]LogFbx: Display: Triangulating static mesh Cube.007
+[2024.05.18-00.42.20:350][128]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.05.18-00.42.20:350][128]LogFbx: Display: Triangulating static mesh Cube.005
+[2024.05.18-00.42.20:351][128]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.05.18-00.42.20:353][128]LogFbx: Display: Triangulating static mesh Cube.003
+[2024.05.18-00.42.20:354][128]LogFbx: Display: Triangulating static mesh Cube.002
+[2024.05.18-00.42.20:354][128]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-00.42.20:355][128]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-00.42.20:369][128]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has degenerate tangent bases which will result in incorrect shading.  
+[2024.05.18-00.42.20:369][128]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.05.18-00.42.20:377][128]FBXImport: Warning: police_car_attempt2_fbx_Collection has degenerate tangent bases which will result in incorrect shading.   
+[2024.05.18-00.42.20:377][128]FBXImport: Warning: police_car_attempt2_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.05.18-00.42.20:530][129]LogAutomationController: Ignoring very large delta of 11.44 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.42.20:532][129]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_018.Material_018 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.42.20:566][129]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_010.Material_010 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.42.20:578][129]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_016.Material_016 needed to have new flag set bUsedWithNanite !
+[2024.05.18-00.42.22:503][232]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.42.22:508][232]LogSlate: Window 'Message Log' being destroyed
+[2024.05.18-00.42.25:555][412]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.42.25:646][412]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.42.25:646][412]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-00.42.26:050][412]LogViewport: Scene viewport resized to 1403x848, mode Windowed.
+[2024.05.18-00.42.49:299][793]LogSlate: Window 'police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-00.42.49:304][793]LogSlate: Window 'police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-00.42.49:329][793]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-00.42.49:329][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-00.42.55:082][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.05.18-00.42.57:090][122]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.18-00.42.57:112][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.05.18-00.42.57:124][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.05.18-00.42.57:139][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.05.18-00.42.57:167][123]LogAutomationController: Ignoring very large delta of 2.12 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.43.12:925][425]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car_attempt2.fbx_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-00.43.12:926][425]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx)
+[2024.05.18-00.43.12:930][425]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx
+[2024.05.18-00.43.12:935][425]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-00.43.58:714][425]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-00.43.58:861][425]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.05.18-00.43.58:869][425]LogFbx: Display: Triangulating static mesh Cube.016
+[2024.05.18-00.43.58:877][425]LogFbx: Display: Triangulating static mesh Cube.015
+[2024.05.18-00.43.58:879][425]LogFbx: Display: Triangulating static mesh Cube.014
+[2024.05.18-00.43.58:881][425]LogFbx: Display: Triangulating static mesh Cube.011
+[2024.05.18-00.43.58:882][425]LogFbx: Display: Triangulating static mesh Cube.010
+[2024.05.18-00.43.58:883][425]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.05.18-00.43.58:883][425]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.05.18-00.43.58:884][425]LogFbx: Display: Triangulating static mesh Cube.007
+[2024.05.18-00.43.58:886][425]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.05.18-00.43.58:886][425]LogFbx: Display: Triangulating static mesh Cube.005
+[2024.05.18-00.43.58:887][425]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.05.18-00.43.58:888][425]LogFbx: Display: Triangulating static mesh Cube.003
+[2024.05.18-00.43.58:889][425]LogFbx: Display: Triangulating static mesh Cube.002
+[2024.05.18-00.43.58:889][425]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-00.43.58:892][425]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-00.43.58:902][425]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-00.43.59:044][425]LogStaticMesh: Built static mesh [0.14s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.43.59:087][426]LogAutomationController: Ignoring very large delta of 46.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.44.02:203][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.05.18-00.44.02:207][593]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.016
+[2024.05.18-00.44.02:207][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection] ([1] browsable assets)...
+[2024.05.18-00.44.02:246][593]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection]
+[2024.05.18-00.44.02:246][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection]
+[2024.05.18-00.44.02:249][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection_Auto2
+[2024.05.18-00.44.02:249][593]LogSavePackage: Moving '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/police_car_attempt2_fbx_CollectiD75DEE924D4E3530E398D2B4C21E767A.tmp' to '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection_Auto2.uasset'
+[2024.05.18-00.44.02:250][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CrossyRoadAssets/police_car_attempt2/Material_018] ([1] browsable assets)...
+[2024.05.18-00.44.02:263][593]OBJ SavePackage:     Rendered thumbnail for [Material /Game/CrossyRoadAssets/police_car_attempt2/Material_018.Material_018]
+[2024.05.18-00.44.02:263][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/CrossyRoadAssets/police_car_attempt2/Material_018]
+[2024.05.18-00.44.02:266][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/Material_018_Auto2
+[2024.05.18-00.44.02:266][593]LogSavePackage: Moving '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Material_018_Auto224B76A164C75BC7972D5ADAE76A46190.tmp' to '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/Material_018_Auto2.uasset'
+[2024.05.18-00.44.02:266][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CrossyRoadAssets/police_car_attempt2/Material_010] ([1] browsable assets)...
+[2024.05.18-00.44.02:279][593]OBJ SavePackage:     Rendered thumbnail for [Material /Game/CrossyRoadAssets/police_car_attempt2/Material_010.Material_010]
+[2024.05.18-00.44.02:281][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/CrossyRoadAssets/police_car_attempt2/Material_010]
+[2024.05.18-00.44.02:282][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/Material_010_Auto2
+[2024.05.18-00.44.02:282][593]LogSavePackage: Moving '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Material_010_Auto2D780FCDD4254375520B815B4F023F59A.tmp' to '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/Material_010_Auto2.uasset'
+[2024.05.18-00.44.02:282][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CrossyRoadAssets/police_car_attempt2/Material_016] ([1] browsable assets)...
+[2024.05.18-00.44.02:296][593]OBJ SavePackage:     Rendered thumbnail for [Material /Game/CrossyRoadAssets/police_car_attempt2/Material_016.Material_016]
+[2024.05.18-00.44.02:296][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/CrossyRoadAssets/police_car_attempt2/Material_016]
+[2024.05.18-00.44.02:298][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/Material_016_Auto2
+[2024.05.18-00.44.02:298][593]LogSavePackage: Moving '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Material_016_Auto21212CD2A4933C29196CF1BB1109CC65D.tmp' to '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Autosaves/Game/CrossyRoadAssets/police_car_attempt2/Material_016_Auto2.uasset'
+[2024.05.18-00.44.02:298][593]LogFileHelpers: Auto-saving content packages took 0.092
+[2024.05.18-00.44.09:282][ 10]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.44.09:368][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.44.09:368][ 10]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-00.44.09:761][ 10]LogViewport: Scene viewport resized to 1403x848, mode Windowed.
+[2024.05.18-00.44.17:368][461]LogSlate: Window 'police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-00.44.17:373][461]LogSlate: Window 'police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-00.44.17:401][461]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-00.44.17:401][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-00.44.33:832][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.44.33:832][426]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-00.44.33:843][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-00.44.33:843][426]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-00.44.34:302][426]LogViewport: Scene viewport resized to 759x848, mode Windowed.
+[2024.05.18-00.44.34:319][426]LogViewport: Scene viewport resized to 759x848, mode Windowed.
+[2024.05.18-00.45.53:063][ 45]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-00.45.53:073][ 45]LogStaticMesh: Built static mesh [0.01s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.46.11:863][169]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-00.46.11:874][169]LogStaticMesh: Built static mesh [0.01s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.47.36:274][744]LogSlate: Window 'Message' being destroyed
+[2024.05.18-00.47.36:278][744]Message dialog closed, result: Yes, title: Message, text: At least one of the assets has unapplied changes. Would you like to apply them? (Selecting 'No' will cause all changes to be lost!)
+[2024.05.18-00.47.36:281][744]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-00.47.36:291][744]LogStaticMesh: Built static mesh [0.01s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.47.36:296][744]LogSlate: Window 'UV: police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-00.47.36:300][744]LogSlate: Window 'UV: police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-00.47.36:303][744]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-00.47.36:303][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-00.47.36:305][744]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-00.47.36:306][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-00.47.36:503][745]LogAutomationController: Ignoring very large delta of 7.76 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.47.47:886][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.05.18-00.47.49:581][378]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.18-00.47.49:604][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.05.18-00.47.49:617][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.05.18-00.47.49:631][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.05.18-00.48.40:647][940]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car_attempt2.fbx_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-00.48.40:648][940]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx)
+[2024.05.18-00.48.40:652][940]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx
+[2024.05.18-00.48.40:656][940]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-00.49.00:082][940]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-00.49.00:228][940]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.05.18-00.49.00:236][940]LogFbx: Display: Triangulating static mesh Cube.016
+[2024.05.18-00.49.00:244][940]LogFbx: Display: Triangulating static mesh Cube.015
+[2024.05.18-00.49.00:246][940]LogFbx: Display: Triangulating static mesh Cube.014
+[2024.05.18-00.49.00:247][940]LogFbx: Display: Triangulating static mesh Cube.011
+[2024.05.18-00.49.00:248][940]LogFbx: Display: Triangulating static mesh Cube.010
+[2024.05.18-00.49.00:249][940]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.05.18-00.49.00:250][940]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.05.18-00.49.00:251][940]LogFbx: Display: Triangulating static mesh Cube.007
+[2024.05.18-00.49.00:252][940]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.05.18-00.49.00:252][940]LogFbx: Display: Triangulating static mesh Cube.005
+[2024.05.18-00.49.00:253][940]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.05.18-00.49.00:255][940]LogFbx: Display: Triangulating static mesh Cube.003
+[2024.05.18-00.49.00:256][940]LogFbx: Display: Triangulating static mesh Cube.002
+[2024.05.18-00.49.00:256][940]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-00.49.00:258][940]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-00.49.00:269][940]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-00.49.00:401][940]LogStaticMesh: Built static mesh [0.13s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-00.49.00:444][941]LogAutomationController: Ignoring very large delta of 19.81 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Total job queries 506, among them cache hits 428 (84.58%)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 22 distinct outputs (84.62%)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: RAM used: 731.41 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Job execution time: average 1.66 s, max 2.08 s
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Job life time (pending + execution): average 1.68 s, max 2.10
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Shader code size: average 47.172 KiB, min 29.711 KiB, max 70.668 KiB
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.10 s
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 3.71 jobs/batch
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Average processing rate: 12.37 jobs/sec
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Total thread time: 9.59 s
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Total thread preprocess time: 0.482 s
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Percentage time preprocessing: 5.03%
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Effective parallelization: 4.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 10.89% of total time (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.61% of total time (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.38% of total time (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.04% of total time (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.78% of total time (compiled    2 times, average 0.47 sec, max 0.73 sec, min 0.21 sec)
+[2024.05.18-00.49.00:557][941]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.49.14:526][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.05.18-00.49.16:777][757]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.18-00.49.16:796][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.05.18-00.49.16:809][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.05.18-00.49.16:822][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.05.18-00.49.16:852][758]LogAutomationController: Ignoring very large delta of 2.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.58.32:775][898]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car_attempt3.fbx_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-00.58.32:775][898]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car_attempt3.fbx_Collection/police_car_attempt3.fbx_Collection.fbx)
+[2024.05.18-00.58.32:779][898]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car_attempt3.fbx_Collection/police_car_attempt3.fbx_Collection.fbx
+[2024.05.18-00.58.32:783][898]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-00.59.54:048][898]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-00.59.54:204][898]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.05.18-00.59.54:211][898]LogFbx: Display: Triangulating static mesh Cube.016
+[2024.05.18-00.59.54:218][898]LogFbx: Display: Triangulating static mesh Cube.015
+[2024.05.18-00.59.54:221][898]LogFbx: Display: Triangulating static mesh Cube.014
+[2024.05.18-00.59.54:223][898]LogFbx: Display: Triangulating static mesh Cube.011
+[2024.05.18-00.59.54:224][898]LogFbx: Display: Triangulating static mesh Cube.010
+[2024.05.18-00.59.54:226][898]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.05.18-00.59.54:226][898]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.05.18-00.59.54:227][898]LogFbx: Display: Triangulating static mesh Cube.007
+[2024.05.18-00.59.54:228][898]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.05.18-00.59.54:228][898]LogFbx: Display: Triangulating static mesh Cube.005
+[2024.05.18-00.59.54:230][898]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.05.18-00.59.54:230][898]LogFbx: Display: Triangulating static mesh Cube.003
+[2024.05.18-00.59.54:232][898]LogFbx: Display: Triangulating static mesh Cube.002
+[2024.05.18-00.59.54:232][898]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-00.59.54:234][898]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-00.59.54:246][898]LogStaticMesh: Display: Building static mesh police_car_attempt3_fbx_Collection...
+[2024.05.18-00.59.54:397][898]LogStaticMesh: Built static mesh [0.15s] /Game/CrossyRoadAssets/police_car_attempt3/police_car_attempt3_fbx_Collection.police_car_attempt3_fbx_Collection
+[2024.05.18-00.59.54:438][899]LogAutomationController: Ignoring very large delta of 81.68 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: ================================================
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Total job queries 518, among them cache hits 440 (84.94%)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 22 distinct outputs (84.62%)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: RAM used: 731.41 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Job execution time: average 1.66 s, max 2.08 s
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Job life time (pending + execution): average 1.68 s, max 2.10
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Shader code size: average 47.172 KiB, min 29.711 KiB, max 70.668 KiB
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.10 s
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 3.71 jobs/batch
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Average processing rate: 12.37 jobs/sec
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Total thread time: 9.59 s
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Total thread preprocess time: 0.482 s
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Percentage time preprocessing: 5.03%
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Effective parallelization: 4.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 10.89% of total time (compiled    2 times, average 0.52 sec, max 0.79 sec, min 0.25 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.61% of total time (compiled    2 times, average 0.51 sec, max 0.79 sec, min 0.23 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.38% of total time (compiled    2 times, average 0.50 sec, max 0.75 sec, min 0.24 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.04% of total time (compiled    2 times, average 0.48 sec, max 0.74 sec, min 0.22 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.78% of total time (compiled    2 times, average 0.47 sec, max 0.73 sec, min 0.21 sec)
+[2024.05.18-00.59.54:553][899]LogShaderCompilers: Display: ================================================
+[2024.05.18-01.00.16:683][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.05.18-01.00.17:835][207]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.18-01.00.17:855][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.05.18-01.00.17:869][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.05.18-01.00.17:881][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.05.18-01.00.33:635][602]LogPackageName: Warning: TryConvertFilenameToLongPackageName was passed an ObjectPath (/Game/CrossyRoadAssets/police_car_attempt2.fbx_Collection) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryConvertFilenameToLongPackageName will fail on ObjectPaths.
+[2024.05.18-01.00.33:636][602]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx)
+[2024.05.18-01.00.33:639][602]LogFbx: Loading FBX Scene from C:\Users\mdrad\Documents\police_car_attempt2.fbx_Collection/police_car_attempt2.fbx_Collection.fbx
+[2024.05.18-01.00.33:644][602]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.18-01.01.29:565][602]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.18-01.01.29:723][602]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.05.18-01.01.29:730][602]LogFbx: Display: Triangulating static mesh Cube.016
+[2024.05.18-01.01.29:739][602]LogFbx: Display: Triangulating static mesh Cube.015
+[2024.05.18-01.01.29:740][602]LogFbx: Display: Triangulating static mesh Cube.014
+[2024.05.18-01.01.29:742][602]LogFbx: Display: Triangulating static mesh Cube.011
+[2024.05.18-01.01.29:743][602]LogFbx: Display: Triangulating static mesh Cube.010
+[2024.05.18-01.01.29:745][602]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.05.18-01.01.29:745][602]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.05.18-01.01.29:746][602]LogFbx: Display: Triangulating static mesh Cube.007
+[2024.05.18-01.01.29:747][602]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.05.18-01.01.29:748][602]LogFbx: Display: Triangulating static mesh Cube.005
+[2024.05.18-01.01.29:749][602]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.05.18-01.01.29:749][602]LogFbx: Display: Triangulating static mesh Cube.003
+[2024.05.18-01.01.29:750][602]LogFbx: Display: Triangulating static mesh Cube.002
+[2024.05.18-01.01.29:751][602]LogFbx: Display: Triangulating static mesh Cube.001
+[2024.05.18-01.01.29:753][602]LogFbx: Display: Triangulating static mesh Cube
+[2024.05.18-01.01.29:797][603]LogAutomationController: Ignoring very large delta of 56.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-01.01.34:802][888]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-01.01.34:893][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-01.01.34:893][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-01.01.35:285][888]LogViewport: Scene viewport resized to 1403x848, mode Windowed.
+[2024.05.18-01.02.13:452][139]LogSlate: Window 'police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-01.02.13:458][139]LogSlate: Window 'police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-01.02.13:489][139]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-01.02.13:489][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-01.02.45:346][973]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-01.02.45:352][974]LogStaticMesh: Adjacency [0.00s], tris: 588, UVs 2
+[2024.05.18-01.02.45:353][974]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.05.18-01.02.45:353][974]LogStaticMesh: Leaves [0.00s]
+[2024.05.18-01.02.45:369][975]LogStaticMesh: Reduce [0.02s]
+[2024.05.18-01.02.45:377][975]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 392
+[2024.05.18-01.02.45:378][975]LogStaticMesh: ConstrainClusters:
+[2024.05.18-01.02.45:378][975]LogStaticMesh:   Input: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-01.02.45:378][975]LogStaticMesh:   Output without splits: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-01.02.45:378][975]LogStaticMesh:   Output with splits: 11 Clusters, 1344 Triangles and 2317 Vertices
+[2024.05.18-01.02.45:378][975]LogStaticMesh: Material Stats - Unique Materials: 13, Fast Path Clusters: 5, Slow Path Clusters: 6, 1 Material: 4, 2 Materials: 0, 3 Materials: 1, At Least 4 Materials: 6
+[2024.05.18-01.02.45:379][975]LogStaticMesh: WritePages:
+[2024.05.18-01.02.45:379][975]LogStaticMesh:   Root: GPU size: 31948 bytes. 1 Pages. 31948.000 bytes per page (97.498% utilization).
+[2024.05.18-01.02.45:379][975]LogStaticMesh:   Streaming: GPU size: 2640 bytes. 1 Pages (1 with relative encoding). 2640.000 bytes per page (2.014% utilization).
+[2024.05.18-01.02.45:379][975]LogStaticMesh:   Page data disk size: 21956 bytes. Fixup data size: 176 bytes.
+[2024.05.18-01.02.45:379][975]LogStaticMesh:   Total GPU size: 34588 bytes, Total disk size: 22132 bytes.
+[2024.05.18-01.02.45:379][975]LogStaticMesh: Encode [0.00s]
+[2024.05.18-01.02.45:379][975]LogStaticMesh: Nanite build [0.03s]
+
+[2024.05.18-01.02.45:381][975]LogStaticMesh: Built static mesh [0.04s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-01.02.45:382][975]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings. 
+[2024.05.18-01.02.45:382][975]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.05.18-01.02.45:409][977]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_018.Material_018 needed to have new flag set bUsedWithNanite !
+[2024.05.18-01.02.45:423][977]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_010.Material_010 needed to have new flag set bUsedWithNanite !
+[2024.05.18-01.02.45:434][977]LogMaterial: Display: Material /Game/CrossyRoadAssets/police_car_attempt2/Material_016.Material_016 needed to have new flag set bUsedWithNanite !
+[2024.05.18-01.03.04:062][870]LogAutomationController: Ignoring very large delta of 3.26 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.18-01.03.12:026][209]LogSlate: Window 'Message' being destroyed
+[2024.05.18-01.03.12:032][209]Message dialog closed, result: Yes, title: Message, text: Are you sure you want to remove vertex colors from all selected meshes?  There is no undo available.
+[2024.05.18-01.03.30:074][253]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-01.03.30:074][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-01.03.30:086][253]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-01.03.30:086][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-01.03.30:285][253]LogViewport: Scene viewport resized to 759x848, mode Windowed.
+[2024.05.18-01.03.30:346][253]LogViewport: Scene viewport resized to 759x848, mode Windowed.
+[2024.05.18-01.04.12:445][557]LogSlate: Window 'Save Asset As' being destroyed
+[2024.05.18-01.04.40:469][200]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-01.04.40:476][200]LogStaticMesh: Adjacency [0.00s], tris: 588, UVs 2
+[2024.05.18-01.04.40:476][200]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.05.18-01.04.40:476][200]LogStaticMesh: Leaves [0.00s]
+[2024.05.18-01.04.40:486][200]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection) ...
+[2024.05.18-01.04.40:493][200]LogStaticMesh: Reduce [0.02s]
+[2024.05.18-01.04.40:501][200]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 396
+[2024.05.18-01.04.40:502][200]LogStaticMesh: ConstrainClusters:
+[2024.05.18-01.04.40:502][200]LogStaticMesh:   Input: 11 Clusters, 1344 Triangles and 2315 Vertices
+[2024.05.18-01.04.40:502][200]LogStaticMesh:   Output without splits: 11 Clusters, 1344 Triangles and 2315 Vertices
+[2024.05.18-01.04.40:502][200]LogStaticMesh:   Output with splits: 12 Clusters, 1344 Triangles and 2315 Vertices
+[2024.05.18-01.04.40:502][200]LogStaticMesh: Material Stats - Unique Materials: 13, Fast Path Clusters: 4, Slow Path Clusters: 8, 1 Material: 4, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 8
+[2024.05.18-01.04.40:503][200]LogStaticMesh: WritePages:
+[2024.05.18-01.04.40:503][200]LogStaticMesh:   Root: GPU size: 32092 bytes. 1 Pages. 32092.000 bytes per page (97.937% utilization).
+[2024.05.18-01.04.40:503][200]LogStaticMesh:   Streaming: GPU size: 2620 bytes. 1 Pages (1 with relative encoding). 2620.000 bytes per page (1.999% utilization).
+[2024.05.18-01.04.40:503][200]LogStaticMesh:   Page data disk size: 22176 bytes. Fixup data size: 192 bytes.
+[2024.05.18-01.04.40:503][200]LogStaticMesh:   Total GPU size: 34712 bytes, Total disk size: 22368 bytes.
+[2024.05.18-01.04.40:503][200]LogStaticMesh: Encode [0.00s]
+[2024.05.18-01.04.40:503][200]LogStaticMesh: Nanite build [0.03s]
+
+[2024.05.18-01.04.40:504][200]LogStaticMesh: Built static mesh [0.04s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-01.04.40:505][200]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings. 
+[2024.05.18-01.04.40:505][200]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.05.18-01.05.17:372][361]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-01.05.17:378][361]LogStaticMesh: Adjacency [0.00s], tris: 588, UVs 2
+[2024.05.18-01.05.17:378][361]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.05.18-01.05.17:379][361]LogStaticMesh: Leaves [0.00s]
+[2024.05.18-01.05.17:389][361]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection) ...
+[2024.05.18-01.05.17:396][361]LogStaticMesh: Reduce [0.02s]
+[2024.05.18-01.05.17:405][361]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 396
+[2024.05.18-01.05.17:405][361]LogStaticMesh: ConstrainClusters:
+[2024.05.18-01.05.17:405][361]LogStaticMesh:   Input: 11 Clusters, 1344 Triangles and 2359 Vertices
+[2024.05.18-01.05.17:406][361]LogStaticMesh:   Output without splits: 11 Clusters, 1344 Triangles and 2359 Vertices
+[2024.05.18-01.05.17:406][361]LogStaticMesh:   Output with splits: 12 Clusters, 1344 Triangles and 2359 Vertices
+[2024.05.18-01.05.17:406][361]LogStaticMesh: Material Stats - Unique Materials: 13, Fast Path Clusters: 4, Slow Path Clusters: 8, 1 Material: 4, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 8
+[2024.05.18-01.05.17:406][361]LogStaticMesh: WritePages:
+[2024.05.18-01.05.17:406][361]LogStaticMesh:   Root: GPU size: 32652 bytes. 1 Pages. 32652.000 bytes per page (99.646% utilization).
+[2024.05.18-01.05.17:406][361]LogStaticMesh:   Streaming: GPU size: 2620 bytes. 1 Pages (1 with relative encoding). 2620.000 bytes per page (1.999% utilization).
+[2024.05.18-01.05.17:406][361]LogStaticMesh:   Page data disk size: 22508 bytes. Fixup data size: 192 bytes.
+[2024.05.18-01.05.17:406][361]LogStaticMesh:   Total GPU size: 35272 bytes, Total disk size: 22700 bytes.
+[2024.05.18-01.05.17:406][361]LogStaticMesh: Encode [0.00s]
+[2024.05.18-01.05.17:406][361]LogStaticMesh: Nanite build [0.03s]
+
+[2024.05.18-01.05.17:408][361]LogStaticMesh: Built static mesh [0.04s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-01.05.17:408][361]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings. 
+[2024.05.18-01.05.17:409][361]LogStaticMesh: Warning: police_car_attempt2_fbx_Collection has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.05.18-01.05.46:472][ 88]LogStaticMesh: Display: Building static mesh police_car_attempt2_fbx_Collection...
+[2024.05.18-01.05.46:481][ 88]LogStaticMesh: Adjacency [0.00s], tris: 588, UVs 2
+[2024.05.18-01.05.46:481][ 88]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.05.18-01.05.46:481][ 88]LogStaticMesh: Leaves [0.00s]
+[2024.05.18-01.05.46:489][ 88]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection) ...
+[2024.05.18-01.05.46:499][ 88]LogStaticMesh: Reduce [0.02s]
+[2024.05.18-01.05.46:507][ 88]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 404
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh: ConstrainClusters:
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh:   Input: 11 Clusters, 1344 Triangles and 2720 Vertices
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh:   Output without splits: 11 Clusters, 1344 Triangles and 2720 Vertices
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh:   Output with splits: 16 Clusters, 1344 Triangles and 2724 Vertices
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh: Material Stats - Unique Materials: 13, Fast Path Clusters: 8, Slow Path Clusters: 8, 1 Material: 5, 2 Materials: 3, 3 Materials: 0, At Least 4 Materials: 8
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh: WritePages:
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh:   Root: GPU size: 30600 bytes. 1 Pages. 30600.000 bytes per page (93.384% utilization).
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh:   Streaming: GPU size: 9900 bytes. 1 Pages (1 with relative encoding). 9900.000 bytes per page (7.553% utilization).
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh:   Page data disk size: 26592 bytes. Fixup data size: 208 bytes.
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh:   Total GPU size: 40500 bytes, Total disk size: 26800 bytes.
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh: Encode [0.00s]
+[2024.05.18-01.05.46:509][ 88]LogStaticMesh: Nanite build [0.03s]
+
+[2024.05.18-01.05.46:511][ 88]LogStaticMesh: Built static mesh [0.04s] /Game/CrossyRoadAssets/police_car_attempt2/police_car_attempt2_fbx_Collection.police_car_attempt2_fbx_Collection
+[2024.05.18-01.06.00:194][896]LogSlate: Window 'UV: police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-01.06.00:199][896]LogSlate: Window 'UV: police_car_attempt2_fbx_Collection' being destroyed
+[2024.05.18-01.06.00:202][896]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-01.06.00:202][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-01.06.00:205][896]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-01.06.00:205][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-01.06.20:586][109]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/RoadTerrain.RoadTerrain
+[2024.05.18-01.06.20:586][109]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-01.06.20:586][109]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-01.06.35:603][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Vehicle.Vehicle
+[2024.05.18-01.06.35:605][992]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-01.06.35:605][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-01.06.54:059][ 75]BlueprintLog: New page: Compile Vehicle
+[2024.05.18-01.06.54:103][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.05.18-01.06.55:138][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.18-01.06.55:258][134]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Vehicle
+[2024.05.18-01.06.55:258][134]LogSavePackage: Moving '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Vehicle8BD8B2F2472F48430B56F19CBA04C1EE.tmp' to '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Content/ThirdPerson/Blueprints/Vehicle.uasset'
+[2024.05.18-01.06.55:265][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 718 ms)
+[2024.05.18-01.06.55:266][134]AssetCheck: New page: Asset Save: Vehicle
+[2024.05.18-01.06.55:266][134]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Vehicle.Vehicle
+[2024.05.18-01.07.20:608][624]BlueprintLog: New page: Compile Vehicle
+[2024.05.18-01.07.20:633][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.05.18-01.07.22:169][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.18-01.07.22:298][712]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Vehicle
+[2024.05.18-01.07.22:299][712]LogSavePackage: Moving '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Vehicle56B6C2AD4A8B69BEAB8BFB8B3DDDFDFE.tmp' to '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Content/ThirdPerson/Blueprints/Vehicle.uasset'
+[2024.05.18-01.07.22:305][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 856 ms)
+[2024.05.18-01.07.22:307][712]AssetCheck: New page: Asset Save: Vehicle
+[2024.05.18-01.07.22:307][712]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Vehicle.Vehicle
+[2024.05.18-01.07.26:903][986]LogViewport: Scene viewport resized to 1523x499, mode Windowed.
+[2024.05.18-01.07.29:357][130]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.18-01.07.29:364][130]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.18-01.07.29:364][130]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.05.18-01.07.29:365][130]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 959 us (total: 2 ms)
+[2024.05.18-01.07.29:365][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.18-01.07.29:365][130]PIE: New page: PIE session: ThirdPersonMap (May 17, 2024, 11:07:29 AM)
+[2024.05.18-01.07.29:365][130]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.05.18-01.07.29:366][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001449s)
+[2024.05.18-01.07.29:366][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.001480s)
+[2024.05.18-01.07.29:378][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.05.18-01.07.29:381][130]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-01.07.29:381][130]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-01.07.29:382][130]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.05.18-01.07.29:382][130]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.18-01.07.29:382][130]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.18-01.07.29:382][130]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.18-01.07.29:382][130]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.18-01.07.29:383][130]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.05.18-01.07.29:383][130]LogWorldPartition: Display: WorldPartition initialize took 490 us (total: 326 ms)
+[2024.05.18-01.07.29:383][130]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2024.05.18-01.07.29:383][130]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.05.18-01.07.29:383][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.18-01.07.29:383][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.18-01.07.29:383][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.18-01.07.29:383][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.18-01.07.29:383][130]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.18-01.07.29:383][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.18-01.07.29:383][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.18-01.07.29:383][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.18-01.07.29:383][130]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.18-01.07.29:383][130]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.18-01.07.29:383][130]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.18-01.07.29:385][130]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.18-01.07.29:401][130]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.05.18-01.07.29:401][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.18-01.07.29:401][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.18-01.07.29:401][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.18-01.07.29:401][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.05.18-01.07.29:402][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.05.18-01.07.29:404][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.05.18-01.07.29:404][130]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.05.18-01.07.29:404][130]LogInit: FAudioDevice initialized with ID 3.
+[2024.05.18-01.07.29:404][130]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2024.05.18-01.07.29:404][130]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.05.18-01.07.29:407][130]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.05.18-01.07.29:407][130]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.05.17-18.07.29
+[2024.05.18-01.07.29:408][130]LogWorld: Bringing up level for play took: 0.000452
+[2024.05.18-01.07.29:410][130]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.05.18-01.07.29:441][130]PIE: Server logged in
+[2024.05.18-01.07.29:441][130]PIE: Play in editor total start time 0.078 seconds.
+[2024.05.18-01.07.32:641][313]LogViewport: Scene viewport resized to 1523x507, mode Windowed.
+[2024.05.18-01.07.32:656][314]LogViewport: Scene viewport resized to 1523x518, mode Windowed.
+[2024.05.18-01.07.32:678][315]LogViewport: Scene viewport resized to 1523x538, mode Windowed.
+[2024.05.18-01.07.32:698][316]LogViewport: Scene viewport resized to 1523x567, mode Windowed.
+[2024.05.18-01.07.32:714][317]LogViewport: Scene viewport resized to 1523x584, mode Windowed.
+[2024.05.18-01.07.32:734][318]LogViewport: Scene viewport resized to 1523x608, mode Windowed.
+[2024.05.18-01.07.32:750][319]LogViewport: Scene viewport resized to 1523x616, mode Windowed.
+[2024.05.18-01.07.32:766][320]LogViewport: Scene viewport resized to 1523x626, mode Windowed.
+[2024.05.18-01.07.32:784][321]LogViewport: Scene viewport resized to 1523x633, mode Windowed.
+[2024.05.18-01.07.32:801][322]LogViewport: Scene viewport resized to 1523x649, mode Windowed.
+[2024.05.18-01.07.32:818][323]LogViewport: Scene viewport resized to 1523x663, mode Windowed.
+[2024.05.18-01.07.32:835][324]LogViewport: Scene viewport resized to 1523x681, mode Windowed.
+[2024.05.18-01.07.32:852][325]LogViewport: Scene viewport resized to 1523x689, mode Windowed.
+[2024.05.18-01.07.32:869][326]LogViewport: Scene viewport resized to 1523x695, mode Windowed.
+[2024.05.18-01.07.32:886][327]LogViewport: Scene viewport resized to 1523x698, mode Windowed.
+[2024.05.18-01.07.32:902][328]LogViewport: Scene viewport resized to 1523x700, mode Windowed.
+[2024.05.18-01.07.32:920][329]LogViewport: Scene viewport resized to 1523x702, mode Windowed.
+[2024.05.18-01.07.32:954][331]LogViewport: Scene viewport resized to 1523x704, mode Windowed.
+[2024.05.18-01.07.32:969][332]LogViewport: Scene viewport resized to 1523x705, mode Windowed.
+[2024.05.18-01.07.32:987][333]LogViewport: Scene viewport resized to 1523x708, mode Windowed.
+[2024.05.18-01.07.33:003][334]LogViewport: Scene viewport resized to 1523x712, mode Windowed.
+[2024.05.18-01.07.33:020][335]LogViewport: Scene viewport resized to 1523x713, mode Windowed.
+[2024.05.18-01.07.33:036][336]LogViewport: Scene viewport resized to 1523x715, mode Windowed.
+[2024.05.18-01.07.33:053][337]LogViewport: Scene viewport resized to 1523x716, mode Windowed.
+[2024.05.18-01.07.33:069][338]LogViewport: Scene viewport resized to 1523x718, mode Windowed.
+[2024.05.18-01.07.33:086][339]LogViewport: Scene viewport resized to 1523x725, mode Windowed.
+[2024.05.18-01.07.33:104][340]LogViewport: Scene viewport resized to 1523x731, mode Windowed.
+[2024.05.18-01.07.33:120][341]LogViewport: Scene viewport resized to 1523x739, mode Windowed.
+[2024.05.18-01.07.33:136][342]LogViewport: Scene viewport resized to 1523x743, mode Windowed.
+[2024.05.18-01.07.33:153][343]LogViewport: Scene viewport resized to 1523x746, mode Windowed.
+[2024.05.18-01.07.33:170][344]LogViewport: Scene viewport resized to 1523x747, mode Windowed.
+[2024.05.18-01.07.33:186][345]LogViewport: Scene viewport resized to 1523x750, mode Windowed.
+[2024.05.18-01.07.33:202][346]LogViewport: Scene viewport resized to 1523x751, mode Windowed.
+[2024.05.18-01.07.33:220][347]LogViewport: Scene viewport resized to 1523x755, mode Windowed.
+[2024.05.18-01.07.33:236][348]LogViewport: Scene viewport resized to 1523x758, mode Windowed.
+[2024.05.18-01.07.33:252][349]LogViewport: Scene viewport resized to 1523x760, mode Windowed.
+[2024.05.18-01.07.33:270][350]LogViewport: Scene viewport resized to 1523x763, mode Windowed.
+[2024.05.18-01.07.33:286][351]LogViewport: Scene viewport resized to 1523x764, mode Windowed.
+[2024.05.18-01.07.33:303][352]LogViewport: Scene viewport resized to 1523x766, mode Windowed.
+[2024.05.18-01.07.33:319][353]LogViewport: Scene viewport resized to 1523x767, mode Windowed.
+[2024.05.18-01.07.33:336][354]LogViewport: Scene viewport resized to 1523x769, mode Windowed.
+[2024.05.18-01.07.33:353][355]LogViewport: Scene viewport resized to 1523x771, mode Windowed.
+[2024.05.18-01.07.33:386][357]LogViewport: Scene viewport resized to 1523x773, mode Windowed.
+[2024.05.18-01.07.33:403][358]LogViewport: Scene viewport resized to 1523x774, mode Windowed.
+[2024.05.18-01.07.33:436][360]LogViewport: Scene viewport resized to 1523x775, mode Windowed.
+[2024.05.18-01.07.33:452][361]LogViewport: Scene viewport resized to 1523x777, mode Windowed.
+[2024.05.18-01.07.33:469][362]LogViewport: Scene viewport resized to 1523x781, mode Windowed.
+[2024.05.18-01.07.33:487][363]LogViewport: Scene viewport resized to 1523x785, mode Windowed.
+[2024.05.18-01.07.33:503][364]LogViewport: Scene viewport resized to 1523x786, mode Windowed.
+[2024.05.18-01.07.33:519][365]LogViewport: Scene viewport resized to 1523x787, mode Windowed.
+[2024.05.18-01.07.33:553][367]LogViewport: Scene viewport resized to 1523x789, mode Windowed.
+[2024.05.18-01.07.33:569][368]LogViewport: Scene viewport resized to 1523x790, mode Windowed.
+[2024.05.18-01.07.33:585][369]LogViewport: Scene viewport resized to 1523x792, mode Windowed.
+[2024.05.18-01.07.33:602][370]LogViewport: Scene viewport resized to 1523x793, mode Windowed.
+[2024.05.18-01.07.33:652][373]LogViewport: Scene viewport resized to 1523x795, mode Windowed.
+[2024.05.18-01.08.24:934][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.18-01.08.24:934][445]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.05.18-01.08.24:935][445]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-01.08.24:936][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-01.08.24:937][445]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.05.18-01.08.24:940][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.18-01.08.24:946][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-01.08.24:959][445]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.18-01.08.24:959][445]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.05.18-01.08.24:959][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.05.18-01.08.24:961][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.05.18-01.08.24:965][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.18-01.08.24:973][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.05.18-01.08.24:998][446]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.05.18-01.08.33:944][981]LogViewport: Scene viewport resized to 1523x772, mode Windowed.
+[2024.05.18-01.08.33:960][982]LogViewport: Scene viewport resized to 1523x745, mode Windowed.
+[2024.05.18-01.08.33:987][983]LogViewport: Scene viewport resized to 1523x737, mode Windowed.
+[2024.05.18-01.08.34:005][984]LogViewport: Scene viewport resized to 1523x730, mode Windowed.
+[2024.05.18-01.08.34:023][985]LogViewport: Scene viewport resized to 1523x718, mode Windowed.
+[2024.05.18-01.08.34:061][986]LogViewport: Scene viewport resized to 1523x662, mode Windowed.
+[2024.05.18-01.08.34:082][987]LogViewport: Scene viewport resized to 1523x636, mode Windowed.
+[2024.05.18-01.08.34:121][988]LogViewport: Scene viewport resized to 1523x612, mode Windowed.
+[2024.05.18-01.08.34:142][989]LogViewport: Scene viewport resized to 1523x596, mode Windowed.
+[2024.05.18-01.08.34:161][990]LogViewport: Scene viewport resized to 1523x571, mode Windowed.
+[2024.05.18-01.08.34:182][991]LogViewport: Scene viewport resized to 1523x544, mode Windowed.
+[2024.05.18-01.08.34:203][992]LogViewport: Scene viewport resized to 1523x531, mode Windowed.
+[2024.05.18-01.08.34:223][993]LogViewport: Scene viewport resized to 1523x523, mode Windowed.
+[2024.05.18-01.08.34:243][994]LogViewport: Scene viewport resized to 1523x516, mode Windowed.
+[2024.05.18-01.08.34:260][995]LogViewport: Scene viewport resized to 1523x509, mode Windowed.
+[2024.05.18-01.08.34:278][996]LogViewport: Scene viewport resized to 1523x494, mode Windowed.
+[2024.05.18-01.08.34:299][997]LogViewport: Scene viewport resized to 1523x481, mode Windowed.
+[2024.05.18-01.08.34:318][998]LogViewport: Scene viewport resized to 1523x476, mode Windowed.
+[2024.05.18-01.08.34:336][999]LogViewport: Scene viewport resized to 1523x474, mode Windowed.
+[2024.05.18-01.08.34:357][  0]LogViewport: Scene viewport resized to 1523x470, mode Windowed.
+[2024.05.18-01.08.34:373][  1]LogViewport: Scene viewport resized to 1523x464, mode Windowed.
+[2024.05.18-01.08.34:392][  2]LogViewport: Scene viewport resized to 1523x455, mode Windowed.
+[2024.05.18-01.08.34:409][  3]LogViewport: Scene viewport resized to 1523x445, mode Windowed.
+[2024.05.18-01.08.34:426][  4]LogViewport: Scene viewport resized to 1523x442, mode Windowed.
+[2024.05.18-01.08.34:447][  5]LogViewport: Scene viewport resized to 1523x438, mode Windowed.
+[2024.05.18-01.08.34:464][  6]LogViewport: Scene viewport resized to 1523x437, mode Windowed.
+[2024.05.18-01.08.34:483][  7]LogViewport: Scene viewport resized to 1523x432, mode Windowed.
+[2024.05.18-01.08.34:500][  8]LogViewport: Scene viewport resized to 1523x419, mode Windowed.
+[2024.05.18-01.08.34:517][  9]LogViewport: Scene viewport resized to 1523x406, mode Windowed.
+[2024.05.18-01.08.34:536][ 10]LogViewport: Scene viewport resized to 1523x392, mode Windowed.
+[2024.05.18-01.08.34:554][ 11]LogViewport: Scene viewport resized to 1523x382, mode Windowed.
+[2024.05.18-01.08.34:573][ 12]LogViewport: Scene viewport resized to 1523x378, mode Windowed.
+[2024.05.18-01.08.34:594][ 13]LogViewport: Scene viewport resized to 1523x370, mode Windowed.
+[2024.05.18-01.08.34:611][ 14]LogViewport: Scene viewport resized to 1523x365, mode Windowed.
+[2024.05.18-01.08.34:629][ 15]LogViewport: Scene viewport resized to 1523x361, mode Windowed.
+[2024.05.18-01.08.34:647][ 16]LogViewport: Scene viewport resized to 1523x356, mode Windowed.
+[2024.05.18-01.08.34:665][ 17]LogViewport: Scene viewport resized to 1523x354, mode Windowed.
+[2024.05.18-01.08.34:684][ 18]LogViewport: Scene viewport resized to 1523x348, mode Windowed.
+[2024.05.18-01.08.34:700][ 19]LogViewport: Scene viewport resized to 1523x347, mode Windowed.
+[2024.05.18-01.08.34:721][ 20]LogViewport: Scene viewport resized to 1523x342, mode Windowed.
+[2024.05.18-01.08.34:737][ 21]LogViewport: Scene viewport resized to 1523x341, mode Windowed.
+[2024.05.18-01.08.34:754][ 22]LogViewport: Scene viewport resized to 1523x340, mode Windowed.
+[2024.05.18-01.08.34:770][ 23]LogViewport: Scene viewport resized to 1523x341, mode Windowed.
+[2024.05.18-01.08.34:788][ 24]LogViewport: Scene viewport resized to 1523x346, mode Windowed.
+[2024.05.18-01.08.34:804][ 25]LogViewport: Scene viewport resized to 1523x352, mode Windowed.
+[2024.05.18-01.08.34:824][ 26]LogViewport: Scene viewport resized to 1523x372, mode Windowed.
+[2024.05.18-01.08.34:839][ 27]LogViewport: Scene viewport resized to 1523x389, mode Windowed.
+[2024.05.18-01.08.34:862][ 28]LogViewport: Scene viewport resized to 1523x401, mode Windowed.
+[2024.05.18-01.08.34:887][ 29]LogViewport: Scene viewport resized to 1523x403, mode Windowed.
+[2024.05.18-01.08.34:909][ 30]LogViewport: Scene viewport resized to 1523x405, mode Windowed.
+[2024.05.18-01.08.34:941][ 32]LogViewport: Scene viewport resized to 1523x406, mode Windowed.
+[2024.05.18-01.08.35:010][ 36]LogViewport: Scene viewport resized to 1523x402, mode Windowed.
+[2024.05.18-01.08.35:026][ 37]LogViewport: Scene viewport resized to 1523x399, mode Windowed.
+[2024.05.18-01.08.35:049][ 38]LogViewport: Scene viewport resized to 1523x397, mode Windowed.
+[2024.05.18-01.08.35:166][ 45]LogViewport: Scene viewport resized to 1523x396, mode Windowed.
+[2024.05.18-01.08.35:266][ 51]LogViewport: Scene viewport resized to 1523x398, mode Windowed.
+[2024.05.18-01.08.35:283][ 52]LogViewport: Scene viewport resized to 1523x400, mode Windowed.
+[2024.05.18-01.08.35:303][ 53]LogViewport: Scene viewport resized to 1523x401, mode Windowed.
+[2024.05.18-01.08.35:319][ 54]LogViewport: Scene viewport resized to 1523x402, mode Windowed.
+[2024.05.18-01.08.35:351][ 56]LogViewport: Scene viewport resized to 1523x404, mode Windowed.
+[2024.05.18-01.08.35:369][ 57]LogViewport: Scene viewport resized to 1523x405, mode Windowed.
+[2024.05.18-01.09.05:884][859]LogSlate: Window 'Vehicle' being destroyed
+[2024.05.18-01.09.05:889][859]LogSlate: Window 'Vehicle' being destroyed
+[2024.05.18-01.09.05:892][859]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-01.09.05:892][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-01.09.05:926][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.05.18-01.09.05:926][859]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.05.18-01.09.05:926][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.18-01.09.17:543][552]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Vehicle.Vehicle
+[2024.05.18-01.09.17:543][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.18-01.09.17:543][552]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.18-01.09.50:844][528]LogDerivedDataCache: C:/Users/mdrad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.063 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5538 files in 7445 folders with total size 249 MiB.
+[2024.05.18-01.10.40:958][442]BlueprintLog: New page: Compile Vehicle
+[2024.05.18-01.10.40:961][442]LogBlueprint: Error: [AssetLog] C:\Users\mdrad\Documents\new_crossy\CrossyRoad\CrossyRoadProj\Content\ThirdPerson\Blueprints\Vehicle.uasset: [Compiler] This blueprint (self) is not a ProjectileMovementComponent, therefore ' Target ' must have a connection.
+[2024.05.18-01.10.40:961][442]LogBlueprint: Error: [AssetLog] C:\Users\mdrad\Documents\new_crossy\CrossyRoad\CrossyRoadProj\Content\ThirdPerson\Blueprints\Vehicle.uasset: [Compiler] Variable node  Set MaxSpeed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2024.05.18-01.10.40:989][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.05.18-01.10.51:578][ 62]BlueprintLog: New page: Compile Vehicle
+[2024.05.18-01.10.51:603][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.05.18-01.10.54:993][263]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.18-01.10.55:117][263]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Vehicle
+[2024.05.18-01.10.55:117][263]LogSavePackage: Moving '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Saved/Vehicle05AFD6C449954D9BFBFEA8A976D4AEE2.tmp' to '../../../../../../Users/mdrad/Documents/new_crossy/CrossyRoad/CrossyRoadProj/Content/ThirdPerson/Blueprints/Vehicle.uasset'
+[2024.05.18-01.10.55:126][263]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 988 ms)
+[2024.05.18-01.10.55:127][263]AssetCheck: New page: Asset Save: Vehicle
+[2024.05.18-01.10.55:127][263]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Vehicle.Vehicle
