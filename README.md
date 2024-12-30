@@ -6,6 +6,7 @@ Crossy Road Game is a 3D game project developed as part of the "Intro to Game De
 - Mark Raden
   * Github Link: https://github.com/mdraden/CrossyRoad
 - Enhui Lin
+  * Github Link: https://github.com/elin525/CrossyRoad/tree/main
 
 ## Features
 - **Player Movement**: Developed game logic using Unreal Engine's Blueprints, enabling smooth player-controlled movement.
@@ -20,6 +21,4 @@ Crossy Road Game is a 3D game project developed as part of the "Intro to Game De
 - **Audacity**: For sound effects and background audio editing.
 
 ## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CrossyRoadGame.git
+
