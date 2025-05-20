@@ -1,6 +1,6 @@
 # Crossy Road Game
 
-Crossy Road Game is a 3D game project developed as part of the "Intro to Game Design and Production" course in Spring 2024. The project implements player-controlled movement and collision detection, showcasing optimized game logic and asset management.
+Crossy Road Game is a 3D game project developed by using Unreal Engine, the project implements player-controlled movement and collision detection, showcasing optimized game logic and asset management.
 
 ## Contributor
 - Mark Raden
